@@ -11,7 +11,7 @@ os.getcwd()
 ##Set the new directory to work in
 ##Give the path to the desired directory within the quotes
 os.chdir("H:\C\Project 01\Training_Session 01\Python_Training_Session 01\Concise_Training 01")
-##########
+##
 
 print("Hello! Welcome to session 01")
 
@@ -35,9 +35,6 @@ type('Hello, World!')
 type('2')
 type('42.0') 
 
-##################################################
-##################################################
-
 ############ Assignment Statements
 message = 'And now for something completely different' 
 n = 17 
@@ -56,18 +53,14 @@ second = 'warbler'
 #?
 first + second
 ## repetition
-#?
 'Spam'*3
 ##what if?
 '2'-'1'
 'eggs'/'easy'
 'third'*'a charm' 
  
-
-##################################################
-##################################################
 ### Functions slide
-####### Basic inbuilt Functions
+### Basic inbuilt Functions
 type(42) 
 print(42)
 a= int('31')
@@ -80,14 +73,13 @@ e= str(32)
 print(e)
 ##### what if?
 c = int('Hello')
-####### Functions from "math" module
+##### Functions from "math" module
 import math 
 radians = 0.7
 height = math.sin(radians) 
 math.sqrt(2) / 2.0 
-#######
-####################################################
-####################################################
+
+#####
 #Boolean Expressions
 5 == 5 
 5 == 6 
@@ -124,11 +116,9 @@ else:
     else: 
         print('x is greater than y') 
 
-######################################################
-####################################################################### Functions
+####### Functions
 ####### Defining New Fuctions
-###Example
-###### SYNTAX  ########
+###Example ~ SYNTAX  ########
 def print_lyrics():
     print("I'm a lumberjack, and I'm okay.")
     print("I sleep all night and I work all day.") 
@@ -166,8 +156,8 @@ cat_twice(line1, line2)
 ####??
 print(bruce)
 print(cat) 
-##############################
-############################## Functions that return some value
+
+######### Functions that return some value
 ######### An example of Friutful Function
 def absolute_value(x):
     if x < 0:
@@ -193,9 +183,8 @@ def is_divisible(x, y):
         return False
 ## Call and check 
 print(is_divisible(6, 4))
-##################################################################
-################################################################################### Iterations
-#################################### While statement
+######## Iterations
+######## While statement
 #when we don't know of how many iterations, but we know when to terminate
 def countdown(n):
     while n > 0:
@@ -233,6 +222,3 @@ def take_third():
 the_text=take_third()
 ##and check
 print(the_text) 
-
-############################################################################################
-############################################################################################
